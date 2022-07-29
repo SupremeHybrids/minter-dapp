@@ -1,217 +1,448 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CodeCats</title>
+    <title>Supreme Hybrids</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- navigation -->
+
+    <nav id="navigayshun">
+      <div class=“social-logos”>
+        <!-- <img src="images/slider/AK47 LGBT.png" alt="discord" class="block-inline"/></a> -->
+        <a class href="https://www.instagram.com/supremehybrids" target="_blank" rel="noopener noreferrer">
+          <img src="images/social-logos/color SH IG.png" alt="ig" class="block-inline" class="ig"/></a>
+          <a class href="https://discord.gg/4u9nv4nStq" target="_blank" rel="noopener noreferrer">
+            <img src="images/social-logos/color SH Discord.png" alt="discord" class="block-inline"/></a>
+            <a class href="https://twitter.com/supremehybrids" target="_blank" rel="noopener noreferrer">
+              <img src="images/social-logos/color SH Twitter.png" alt="twitter" class="block-inline"/></a>
+              <!-- <button class="wallet-btn btn block-inline" id="connectWallet">
+                <span>Connect Wallet</span>
+              </button> -->
+            </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+            <h2 id="welcomehead">Welcome Home Fam!</span></h2>
+            <p id="welcomeptext">
+              You Belong With US!
+            </p>
+            
+
+            
+
 
     <!-- favicon -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="images/x-icon/apple-touch-icon.png"
+      href="images/Fanny Pack.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="images/x-icon/favicon-32x32.png"
+      href="images/Supreme Hybrids.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="images/x-icon/favicon-16x16.png"
+      href="images/OG Kush.png"
     />
     <link rel="manifest" href="images/x-icon/site.webmanifest" />
-    <link rel="stylesheet" href="css/three-dots.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/solid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/brands.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/three-dots.min.css" /> -->
     <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="logo">
-          <a href="/">
-            <img src="images/x-icon/favicon-32x32.png" alt="logo" />
-          </a>
+
+
+    <div class="main-wrapper">
+      <section class="container not-connected">
+        <div>
+          <h2 id="welcomeH2">Connect to MetaMask</h2>
+          <h1 id="welcomeH1">Welcome to my large </h1>
+          <p id="welcomeP">
+           ?
+            <a
+              href="https://youtube.com/codestackr"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="codestackr-link"
+              >codeSTACKr</a
+            >
+            YouTube channel.
+          </p>
+          <br />
+          <!-- <button
+            id="connectWalletActionBtn"
+            class="hero-btn btn"
+            ><span>Let's MINT</span>
+          </butt> -->
         </div>
-        <div class="menu">
+      </section>
+
+      <section class="container countdown-container">
+        <div class="countdown card">
+          <div id="countdown">
+            <ul class="count-down" data-date="">
+              <li class="clock-item">
+                <span class="count-number days">20</span>
+                <p class="count-text">Days</p>
+              </li>
+
+              <li class="clock-item">
+                <span class="count-number hours">20</span>
+                <p class="count-text">Hour</p>
+              </li>
+
+              <li class="clock-item">
+                <span class="count-number minutes">20</span>
+                <p class="count-text">Min</p>
+              </li>
+
+              <li class="clock-item">
+                <span class="count-number seconds">20</span>
+                <p class="count-text">Sec</p>
+              </li>
+            </ul>
+            <h2 id="subHeading">Pre-Sale Countdown</h2>
+          </div>
+          <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
+          <p id="mainText">
+            A new batch of cute cats will be available very soon!
+          </p>
           <a
+            id="actionButton"
             href="https://discord.gg/A9CnsVzzkZ"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <img src="images/header/discord.webp" alt="Discord" />
+            class="hero-btn btn"
+            ><span>Join the Community</span>
           </a>
+          <div id="mintContainer" class="mint-container hidden">
+            <div class="info-container">
+              <div>
+                <h3>Supply</h3>
+                <p class="boxxx" id="totalSupply">10,000</p>
+              </div>
+              <div>
+                <h3>Price Per Mint</h3>
+                <p class="boxxx" id="pricePerMint">.01 ETH</p>
+              </div>
+              <div>
+                <h3>Max</h3>
+                <p class="boxxx" id="maxPerMint">unlimited</p>
+              </div>
+            </div>
+            <div class="mint-qty">
+              <span>
+                <button style="border-radius: 5px 0px 0px 5px;" class="input-number-decrement btn" id="mintDecrement">
+                  –
+                </button>
+                <input
+                  id="mintInput"
+                  class="input-number btn"
+                  type="number"
+                  value="1"
+                  min="1"
+                  max="5"
+                />
+                <button style="border-radius: 0px 5px 5px 0px;" class="input-number-increment btn" id="mintIncrement">
+                  +
+                </button>
+              </span>
+              <button style="border-radius: 5px;" id="setQtyMax" class="btn">SET MAX</button>
+            </div>
+            <div class="total-price-container">
+              <h3 class="boxxx"> Total </h3>
+              <p class="boxxx" id="totalPrice" style="padding-top: 5px;">.001 ETH</p>
+            </div>
+            <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
+          </div>
+        </div>
+        <div class="minted-container card show-card hidden">
+          <h1>🎉</h1>
+          <h2>Minted!</h2>
+          <p>Here's your trasaction link:</p>
           <a
-            href="https://twitter.com/codeSTACKr"
+            id="mintedTxnBtn"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="images/header/twitter.webp" alt="Twitter" />
+            <button class="hero-btn btn">View Transaction</button>
           </a>
+          <p>View it in the collection:</p>
           <a
-            href="https://opensea.io/collection/codecats"
+            id="mintedLinkBtn"
+            href="opensea"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="images/header/opensea.webp" alt="Opensea" />
+            <button class="hero-btn btn">View Collection</button>
           </a>
-          <button class="wallet-btn btn" id="connectWallet">
-            <span>Connect Wallet</span>
-          </button>
         </div>
-      </div>
-    </header>
-
-    <section class="container not-connected">
-      <div>
-        <h2 id="welcomeH2">Connect to MetaMask to Get Started</h2>
-        <h1 id="welcomeH1">Welcome to the CodeCats NFT Project!</h1>
-        <p id="welcomeP">
-          The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.
-        </p>
-      </div>
-    </section>
-
-    <section class="container">
-      <div class="countdown card">
-        <div id="countdown">
-          <ul class="count-down" data-date="">
-            <li class="clock-item">
-              <span class="count-number days">20</span>
-              <p class="count-text">Days</p>
-            </li>
-
-            <li class="clock-item">
-              <span class="count-number hours">20</span>
-              <p class="count-text">Hour</p>
-            </li>
-
-            <li class="clock-item">
-              <span class="count-number minutes">20</span>
-              <p class="count-text">Min</p>
-            </li>
-
-            <li class="clock-item">
-              <span class="count-number seconds">20</span>
-              <p class="count-text">Sec</p>
-            </li>
-          </ul>
-          <h2 id="subHeading">Pre-Sale Countdown</h2>
-        </div>
-        <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
-        <p id="mainText">
-          A new batch of cute cats will be available very soon!
-        </p>
-        <a
-          id="actionButton"
-          href="https://discord.gg/A9CnsVzzkZ"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="hero-btn btn"
-          ><span>Join the Catmmunity</span>
-        </a>
-        <div id="mintContainer" class="mint-container hidden">
-          <div class="info-container">
-            <div>
-              <h3>Supply</h3>
-              <p id="totalSupply">100</p>
-            </div>
-            <div>
-              <h3>Price Per Mint</h3>
-              <p id="pricePerMint">1 ETH</p>
-            </div>
-            <div>
-              <h3>Max</h3>
-              <p id="maxPerMint">5 per wallet</p>
-            </div>
-          </div>
-          <div class="mint-qty">
-            <span>
-              <button class="input-number-decrement btn" id="mintDecrement">–</button>
-              <input
-                id="mintInput"
-                class="input-number btn"
-                type="number"
-                value="1"
-                min="1"
-                max="5"
-              />
-              <button class="input-number-increment btn" id="mintIncrement">+</button>
-            </span>
-            <button id="setQtyMax" class="btn">SET MAX</button>
-          </div>
-          <div class="total-price-container">
-            <h3>Total</h3>
-            <p id="totalPrice">.001 ETH</p>
-          </div>
-          <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
-        </div>
-      </div>
-      <div class="minted-container card show-card hidden">
-        <h1>🎉</h1>
-        <h2>Minted!</h2>
-        <p>Here's your trasaction link:</p>
-        <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
-          <button class="hero-btn btn">View Transaction</button>
-        </a>
-        <p>View it in the collection:</p>
-        <a
-          id="mintedLinkBtn"
-          href="https://testnets.opensea.io/collection/teststackr-collection"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button class="hero-btn btn">View Collection</button>
-        </a>
-      </div>
-    </section>
-
-    <div id="spinner" class="dot-spin"></div>
-
-    <div class="splide">
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide">
-            <img src="images/slider/0.png" />
+      </section>      
+    </div>
+    <section class="faq">
+      <div class="container">
+        <ul>
+          <li>
+            <input type="checkbox" checked>
+            <i></i>
+            <h2>The Mission</h2>
+            <p>We aim to GROW in VALUE
+              <br/>but MOST importantly to 
+              <br/><strong>GROW IN LIFE</strong>.
+              <br/>
+              <br/>ORIGINAL minters will gain more than what it will cost and
+              <br/>EVERYONE "can" learn self development and grow for <strong>no cost</strong>.
+              <br/>
+            <br>More details on <a href="https://discord.gg/KBSXZ5ZBtQ" target="_blank" rel="noopener noreferrer">DISCORD</a>.
+            </p>
           </li>
-          <li class="splide__slide">
-            <img src="images/slider/1.png" />
+          <li>
+            <input id="firstFaq" type="checkbox">
+            <i></i>
+            <h2>What is Supreme Hybrids</h2>
+            <p>A community that is built for lifting and elevating others.
+              <br/> 
+              <br/>Join us for motivation, perseverance, personal growth and MORE .
+            </p>
           </li>
-          <li class="splide__slide">
-            <img src="images/slider/2.png" />
+          <li>
+            <input type="checkbox" checked>
+            <i></i>
+            <h2>OWNER Benefits</h2>
+            <p><strong>"ALL YEAR LONG IRL UTILITY</strong>
+              <br/>
+              <br/>Owners will have exclusive access for IRL Events.
+              <br/>Penthouse Parties, Supreme Concerts,
+              <br>Future Supreme Hybrids projects WL,
+              <br>Free Tiered Raffle Giveaways, Etc...
+              <br>
+              <br/>Additional Benefits in <a href="https://discord.gg/BxdMG7G3sR" target="_blank" rel="noopener noreferrer">DISCORD</a>.
+            </p>
           </li>
-          <li class="splide__slide">
-            <img src="images/slider/3.png" />
+          <li>
+            <input type="checkbox" checked>
+            <i></i>
+            <h2>Non-Owner Benefits</h2>
+            <p>Non-Owner benefits have access to free guide and resources in <a href="https://discord.gg/4u9nv4nStq" target="_blank" rel="noopener noreferrer">DISCORD</a>. 
+            <br/>
+            <br/>Free Supreme Hybrids items, accessories & more.</p>
           </li>
-          <li class="splide__slide">
-            <img src="images/slider/4.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/5.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/6.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/7.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/8.png" />
+          <li>
+            <input type="checkbox" checked>
+            <i></i>
+            <h2>Most Asked Question</h2>
+            <p>Tag a MOD or Admin to inquire in <a href="https://discord.gg/zXuDPmdRMn" target="_blank" rel="noopener noreferrer">DISCORD</a> <strong>:)</strong>
+            </p>
           </li>
         </ul>
       </div>
+    </section>
+
+    <div class="container roadmap">
+      <h1></h1>
     </div>
+    <div class="wrapper" id="wrapper2022">
+      <div class="center-line">
+        <a href="#" class="scroll-down"><i class="fas fa-claret-up"></i></a>
+      </div>
+      <div class="roadmap-v2 aos-init aos-animate" data-aos="fade-down" data-aos-offset="200">
+        <p id="2022-roadmap"><strong>2022 Roadmap</strong></p>
+      </div>
+      <div class="row row-1 supreme-release" data-aos="fade-right" data-aos-offset="200">
+        <section >
+          <img src="images/Plain Gold & Teal.png" class="icon fa-solid fa-egg"></i>
+          <div class="details">
+            <span class="title">Supreme Release</span>
+            <span>25%</span>
+          </div>
+          <p>
+            Supreme Hybrids becomes available to the PUBLIC.
+          </p>
+          <!-- <div class="bottom">
+            <a href="https://discord.gg/A9CnsVzzkZ" target="_blank" rel="noopener noreferrer">Owners on Opeansea!</a>
+          </div> -->
+        </section>
+      </div>
+      <div class="row row-2" data-aos="fade-left" data-aos-offset="200">
+        <section>
+          <img src="images/AK47 LGBT.png" class="icon fa-brands fa-earlybirds"></i>
+          <div class="details">
+            <span class="title">Raffles & Airdrops</span>
+            <span>50%</span>
+          </div>
+          <p>
+            Random Winners are picked for NFT airdrops. 
+            <br>
+            <br/>FREE Raffles for different TIERS begins starting with Tier 1.
+          </p>
+          <div class="bottom">
+            <a href="https://discord.gg/pN2ZkW8M2b" target="_blank" rel="noopener noreferrer">Giveaways</a>
+          </div>
+        </section>
+      </div>
+      <div class="row row-1" data-aos="fade-right" data-aos-offset="200">
+        <section>
+          <img src="images/LA Confidential Blue & Red 2.png" class="icon fa-solid fa-shopping-cart"></i>
+          <div class="details">
+            <span class="title">Tier 2 & 3 Giveaways</span>
+            <span>75%</span>
+          </div>
+          <p>
+            Tier 2 giveaways are Bi-weekly and Tier 3 giveaways are Monthly.
+          </p>
+        </section>
+      </div>
+      <div class="row row-2" data-aos="fade-left" data-aos-offset="200">
+        <section>
+          <img src="images/OG Purp.png" class="icon fa-solid fa-gift"></i>
+          <div class="details">
+            <span class="title">All Year Long "IRL" events</span>
+            <span>100%</span>
+          </div>
+          <p>
+            Taco Tuesdays! Food Trucks! 
+            <br>Network and Associate! 
+            <br>and much MORE!!
+            <br>
+          </p>
+        </section>
+      </div>
+    </div>
+
+
+
+<section class="n-jan">
+    <div class="n-jan-img">
+      <img src="images/Supreme-Samples-reduce.GIF" class="gif">
+    </div>
+ 
+      <div class="n-jan-p">
+        <h2>Not Just An NFT</span></h2>
+        <p id="n-jan-p">A community that any one can feel like they belong. 
+          <br>We have resources to guide our community members for self growth; 
+          <br>mentally, emotionally, physically and spiritually.</span></p>
+        <a
+            href="https://discord.gg/BxdMG7G3sR"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="hero-btn btn n-jan-b">Check us out!</button>
+          </a>
+      </div>
+    </section>
+
+
+
+
+    <div class="container roadmap2023">
+    </div>
+    <div class="wrapper">
+      <div class="center-line">
+        <a href="#" class="scroll-down"><i class="fas fa-claret-up"></i></a>
+      </div>
+      <div class="roadmap-v2 aos-init aos-animate" data-aos="fade-down" data-aos-offset="200">
+        <p>
+          <img src="images/Athletic Shorts.png" class="merch"></i>
+          <strong>2023 Roadmap
+            <img src="images/Athletic Shorts Women.png" class="merch"></i>
+          </strong>
+        </p>
+      </div>
+      <div class="row row-1" data-aos="fade-right" data-aos-offset="200">
+        <section>
+          <img src="images/Fanny Pack.png" class="icon fa-solid fa-toolbox"></i>
+          <div class="details">
+            <span class="title">Merchs and More</span>
+            <span>TBA</span>
+          </div>
+          <p>
+            Supreme Hybrids shirts, shorts, hats, hoodies & more will be available for giveaways and purchase for holders.
+          </p>
+          <div class="bottom">
+            <a href="https://discord.gg/NuqPpagXPq" class="maplinks" target="_blank" rel="noopener noreferrer">Merch Catalog</a>
+          </div>
+        </section>
+      </div>
+      <div class="row row-2" data-aos="fade-left" data-aos-offset="200">
+        <section>
+          <img src="images/Flutes.png" class="icon fas fa-paper-plane"></i>
+          <div class="details">
+            <span class="title">Penthouse Parties</span>
+            <span>TBA</span>
+          </div>
+          <p>
+            Penthouse parties for our holders will begin in the heart of LAS VEGAS. <strong>Chosen "CASINO"</strong> TBA.
+          </p>
+        </section>
+      </div>
+      <div class="row row-1" data-aos="fade-right" data-aos-offset="200">
+        <section>
+          <img src="images/LV Sign.png" class="icon fa-solid fa-store">
+          <div class="details">
+            <span class="title">Supreme Concert</span>
+            <span>TBA</span>
+          </div>
+          <p>
+            Supreme Hybrids will organize a concert EXCLUSIVELY for our holders with "POPULAR" perfomers.
+          </p>
+        </section>
+
+      </div>
+      <div class="roadmap-v2 aos-init aos-animate" data-aos="fade-up" data-aos-offset="200">
+        <p><strong>You Matter To US!</strong></p>
+        
+
+
+
+
+      </div>
+
+    </div>
+
+    
+    <!-- <section id="VSC"><strong>Verified Smart Contract: Coming Soon...</strong></section><br> -->
+
+    <footer>Copyright &copy; Supreme Hybrids 2022</footer>
+
+    <div id="spinner" class="dot-spin"></div>
 
     <script src="js/metamask-onboarding.bundle.js"></script>
     <script src="js/web3.min.js"></script>
     <script src="js/splide.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/constants.js"></script>
     <script src="js/abi.js"></script>
     <script src="js/countdown.js"></script>
     <script src="js/app.js"></script>
+    <script>
+      AOS.init({
+        disable: 'phone'
+      });
+    </script>
   </body>
 </html>
+
+
+ 
