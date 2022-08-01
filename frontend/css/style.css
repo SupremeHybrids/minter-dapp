@@ -54,7 +54,7 @@ body {
 #welcomeptext {
   font-size: 1.5rem;
   font-family: var(--font-primary);
-  margin-top: 14rem;
+  /*margin-top: 14rem; */
   margin-bottom: -12rem;
   border-radius: 5px;
   text-shadow: 1px 1px 0 #cfcfcf;
