@@ -613,9 +613,9 @@ margin-top: 2rem;
   opacity: 95%;
   
 }
-#wrapper2022{
+/*#wrapper2022{
 
-}
+}*/
 
 .wrapper .center-line {
   position: absolute;
@@ -781,7 +781,7 @@ margin-top: 2rem;
   max-width: 800px;
   margin: 50px auto;
   opacity: 95%;
-  / *margin-top: 15rem; */
+  /*margin-top: 15rem; */
 }
 
 .faq ul li i:before, .faq ul li i:after, .faq p {
