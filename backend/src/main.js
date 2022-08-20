@@ -135,8 +135,6 @@ const addMetadata = (_dna, _edition) => {
     dna: sha1(_dna),
     edition: _edition,
     ...extraMetadata,
-    date: dateTime,
-    compiler: "HashLips Art Engine - codeSTACKr Modified",
   };
   if (network == NETWORK.sol) {
     tempMetadata = {
