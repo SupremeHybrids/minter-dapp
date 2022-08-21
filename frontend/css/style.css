@@ -138,6 +138,11 @@ header .container {
   margin-top: 2rem;
 }
 
+.suip {
+  font-style: italic;
+  bottom: 30px;
+  position: relative;
+}
 
 
 /* NOT CONNECTED */
@@ -1188,4 +1193,13 @@ footer {
   padding: 20px;
   font-size: 15px;
   text-align: center;
+}
+
+.gi3 { 
+  font-size: medium;
+}
+
+#planetickets {
+  transform: scale(1);
+
 }
