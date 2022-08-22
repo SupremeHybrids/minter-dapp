@@ -140,8 +140,12 @@ header .container {
 
 .suip {
   font-style: italic;
-  bottom: 30px;
-  position: relative;
+  top: 65px;
+  right: 0px;
+  left: 0px;
+  position: fixed;
+  z-index: 100;
+  font-weight: 600;
 }
 
 
@@ -707,7 +711,7 @@ margin-top: 2rem;
   color: #9a4a4c; /* #03710b; */
 }
 .row section .details span:last-of-type {
-  color: var(--bg-color);
+  color: #26b43d;
   font-weight: bold;
 }
 .row section p {
@@ -1195,11 +1199,8 @@ footer {
   text-align: center;
 }
 
-.gi3 { 
-  font-size: medium;
-}
-
 #planetickets {
   transform: scale(1);
 
 }
+
