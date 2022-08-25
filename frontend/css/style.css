@@ -1109,8 +1109,17 @@ footer {
 }
 
 .slider-img {
-  border: 10px solid #fff;
+  border: 5px solid #fff;
   border-radius: 10px;
+  overflow: hidden;
+}
+
+.slider-img2 {
+  border: 5px solid #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 1200px;
+  margin-top: 3rem;
 }
 
 @keyframes translateinfinite {
@@ -1215,6 +1224,7 @@ footer {
   height: 100vh;
   display: contents;
   position: relative;
+  overflow: hidden;
 }
 
 .cards1 {
