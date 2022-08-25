@@ -558,6 +558,7 @@ section {
   align-items: center;
   position: relative;
   margin-top: 2rem;
+  padding: 0 20px;
 /*  margin: 50px 25px;
   overflow: hidden; */
 }
@@ -619,6 +620,7 @@ section {
   position: relative;
   top: 5px;
   opacity: 95%;
+  overflow: hidden;
   
 }
 /*#wrapper2022{
@@ -1014,6 +1016,7 @@ footer {
 
   .wrapper {
     margin: 1rem auto;
+    overflow: hidden;
   }
   .hero-btn {
     font-size: 1rem;
@@ -1198,6 +1201,7 @@ footer {
   opacity: 90%;
   overflow: hidden;
   margin-bottom: 3rem;
+  padding: 0 20px;
 }
 
 .grid-item-3 {
@@ -1227,6 +1231,7 @@ footer {
   display: contents;
   position: relative;
 /*  overflow: hidden; */
+  overflow: hidden;
 }
 
 .cards1 {
@@ -1239,6 +1244,7 @@ footer {
   overflow: auto;
   gap: 10px;
   font-weight: 600;
+  padding: 0 20px;
 }
 
 .cards1 .card1 {
