@@ -87,9 +87,6 @@ h1 {
   font-size: 2rem;
 }
 
-.ST {
-  margin-top: -rem;
-}
 
 /* HEADER */
 
@@ -561,7 +558,7 @@ section {
   align-items: center;
   position: relative;
   margin-top: 2rem;
-  margin: 50px 25px;
+  margin: 50px 25px; */
 }
 .n-jan-img{
   flex: 2 0 auto;
@@ -585,10 +582,11 @@ section {
 }
 
 .git {
-  max-width: 85%;
+  max-width: 100%;
   vertical-align: middle;
-  border-radius: 10px;
+  border-radius: 1px;
   margin-bottom: 5rem;
+  margin-top: 3rem;
 }
 
 /* ROADMAP */
@@ -1081,7 +1079,7 @@ footer {
 /*  overflow: hidden; */
   box-sizing: border-box;
   display: block;
-  transform: rotate(-356deg);
+  transform: rotate(0deg); /* rotate(-356deg); */
 }
 
 .slider-container {
