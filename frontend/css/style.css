@@ -558,8 +558,8 @@ section {
   align-items: center;
   position: relative;
   margin-top: 2rem;
-  margin: 50px 25px;
-  overflow: hidden;
+/*  margin: 50px 25px;
+  overflow: hidden; */
 }
 .n-jan-img{
   flex: 2 0 auto;
@@ -789,7 +789,7 @@ section {
   max-width: 800px;
   margin: 50px auto;
   opacity: 95%;
-  /*margin-top: 15rem; */
+/* margin-top: 15rem; */
 }
 
 .faq ul li i:before, .faq ul li i:after, .faq p {
@@ -1077,7 +1077,7 @@ footer {
 */
 
 .slider-mask {
-  overflow: hidden;
+/*  overflow: hidden; */
   box-sizing: border-box;
   display: block;
   transform: rotate(0deg); /* rotate(-356deg); */
@@ -1113,7 +1113,7 @@ footer {
 .slider-img {
   border: 5px solid #fff;
   border-radius: 10px;
-  overflow: hidden;
+/*  overflow: hidden; */
 }
 
 .slider-img2 {
@@ -1226,7 +1226,7 @@ footer {
   height: 100vh;
   display: contents;
   position: relative;
-  overflow: hidden;
+/*  overflow: hidden; */
 }
 
 .cards1 {
@@ -1236,7 +1236,7 @@ footer {
   padding: 10px;
   left: 0px;
   right: 0px;
-  overflow: hiden;
+  overflow: auto;
   gap: 10px;
   font-weight: 600;
 }
@@ -1297,9 +1297,7 @@ footer {
   100% {}
 }
 
-.aclvimg {
-  width: 10px;
-}
+
 
 
 
