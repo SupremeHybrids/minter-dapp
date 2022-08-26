@@ -87,6 +87,24 @@ h1 {
   font-size: 2rem;
 }
 
+.shh1 {
+  text-shadow: 2px 2px 0 var(--accent-color);
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.shhp {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.shht {
+  margin-top: 3rem;
+}
+
+.shteam {
+  margin-bottom: 6rem;
+}
 
 /* HEADER */
 
@@ -557,7 +575,8 @@ section {
   flex-wrap: wrap-reverse;
   align-items: center;
   position: relative;
-  margin-top: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
   padding: 0 20px;
 /*  margin: 50px 25px;
   overflow: hidden; */
@@ -1084,6 +1103,11 @@ footer {
   box-sizing: border-box;
   display: block;
   transform: rotate(0deg); /* rotate(-356deg); */
+  margin-top: 3rem;
+}
+
+.slider-shh {
+    margin-top:-3rem;
 }
 
 .slider-container {
@@ -1232,6 +1256,7 @@ footer {
   position: relative;
 /*  overflow: hidden; */
   overflow: hidden;
+  z-index: 100;
 }
 
 .cards1 {
@@ -1245,6 +1270,7 @@ footer {
   gap: 10px;
   font-weight: 600;
   padding: 0 20px;
+  z-index: 100;
 }
 
 .cards1 .card1 {
@@ -1261,6 +1287,7 @@ footer {
   padding: 10px;
   border: 3px solid #e25656;
   box-shadow: 0 0 3px #4c0505;
+  z-index: 100;
 }
 
 .cards1 .card1 {
