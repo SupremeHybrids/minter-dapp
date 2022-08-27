@@ -87,6 +87,12 @@ h1 {
   font-size: 2rem;
 }
 
+/*
+.sh-hq {
+  display: flex;
+}
+*/
+
 .shh1 {
   text-shadow: 2px 2px 0 var(--accent-color);
   font-style: italic;
@@ -248,6 +254,15 @@ a.codestackr-link {
   font-size: 1.2rem;
   padding: 1rem 1rem;
   opacity: 75%;
+}
+
+.sh-hq-btn {
+  border-radius: 4px;
+/*  font-size: 1.2rem; */
+  padding: .5rem 6rem;
+  opacity: 75%;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 /* CARD */
