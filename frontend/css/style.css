@@ -590,8 +590,8 @@ section {
   flex-wrap: wrap-reverse;
   align-items: center;
   position: relative;
-  margin-top: 6rem;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
   padding: 0 20px;
 /*  margin: 50px 25px;
   overflow: hidden; */
@@ -1345,7 +1345,33 @@ footer {
   100% {}
 }
 
+form {
+/*  border: 3px solid #f1f1f1; */
+  font-family: "Poppins", sans-serif;
+}
+
+.mailcontainer {
+  padding: 6px;
+/*  background-color: var(--accent-color); */
+  margin-bottom: 0rem;
+  
+}
+
+input[type=text], input[type=submit] {
+  width: 300px;
+  padding: 12px;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
 
 
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  width: 70px;
+}
 
-
+input[type=submit]:hover {
+  opacity: 0.8;
+}
