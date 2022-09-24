@@ -166,6 +166,14 @@ header .container {
   margin-top: 2rem;
 }
 
+.inline {
+  max-height: 60px;
+  flex: 1 0 auto;
+  display: inline-block;
+  padding: 2px 15px;
+  margin-top: -1rem;
+}
+
 .suip {
   font-style: italic;
   top: 65px;
