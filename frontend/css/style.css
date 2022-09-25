@@ -159,10 +159,10 @@ header .container {
 }
 
 .block-inline {
-  max-height: 60px;
+  max-height: 50px;
   flex: 1 0 auto;
   display: inline-block;
-  padding: 2px 15px;
+  padding: 2px 10px;
   margin-top: 2rem;
 }
 
