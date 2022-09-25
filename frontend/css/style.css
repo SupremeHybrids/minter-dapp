@@ -167,11 +167,21 @@ header .container {
 }
 
 .inline {
+  max-height: 50px;
+  flex: 1 0 auto;
+  display: inline-block;
+  padding: 2px 15px;
+  margin-top: 0rem;
+  align-content: center;
+}
+
+.calendars {
   max-height: 40px;
   flex: 1 0 auto;
   display: inline-block;
   padding: 2px 15px;
-  margin-top: -3rem;
+  margin-top: 0rem;
+  align-content: center;
 }
 
 .suip {
