@@ -183,10 +183,12 @@ header .container {
   margin-top: 0rem;
   align-content: center;
   border-radius: 15px;
+  border: solid;
 }
 
 .calendar-border {
   border-radius: 20px;
+  border: solid;
 }
 
 .suip {
