@@ -184,6 +184,10 @@ header .container {
   align-content: center;
 }
 
+.calendar-border {
+  border-radius: px;
+}
+
 .suip {
   font-style: italic;
   top: 65px;
